@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="Samples">
+    <configurations>
+      <configuration name="Samples" target-platform="Desktop" pure-as="true" main-class="Startup" output-file="samples.swf" output-folder="$MODULE_DIR$/bin">
+        <dependencies>
+          <entries>
+            <entry library-id="06d790cc-66d1-44f2-8057-e204642f0ff3">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="9bb53f6e-8290-4d5b-8814-43fca0d7e5f7">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="9bdc2f16-85cf-4f7e-8456-256eef4a0d05">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="AIR23" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/src/Startup-app.xml" package-file-name="Samples" />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="AIR23" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="06d790cc-66d1-44f2-8057-e204642f0ff3" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../libs/Starling.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="9bb53f6e-8290-4d5b-8814-43fca0d7e5f7" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../libs/XTDCommon.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="9bdc2f16-85cf-4f7e-8456-256eef4a0d05" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../DMT/src" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
